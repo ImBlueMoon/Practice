@@ -1,43 +1,58 @@
-body {
-    background-color: wheat;
-}
-.container {
-    /* background-color: rgb(230, 89, 199); */
-    /* padding: 10px; */
-    /* border-radius: 1em; */
-    height: 500px;
-    width: 450px;
-    margin-top: 75px;
-    margin-left: 500px;
-}
-.button_game {
-    margin-left: auto;
-    width: auto;
-    height: auto;
-}
-
-td .button {
-    background-color: darkcyan;
-    color: white;
-    border: solid black 0.2px;
-    width: 100%;
-    border-radius: 5px;
-    height: 100%;
-    outline: none;
-}
-.button:active {
-    background: #00ff22;
-    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
-    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
-    box-shadow: inset 0px 0px 5px #c1c1c1;
-}
-.player {
-    /* background-color: #00ff22; */
-    margin: 15px;
-}
-.sign {
-    margin-left: 15px;
-    width: 20px;
-    height: auto;
-    text-align: center;
-}
+ /* CSS Code */
+    /* Heading */
+    h1 {
+        color: orangered;
+        font-size: 45px;
+    }
+  
+    /* 3*3 Grid */
+    #b1, #b2, #b3, #b4, #b5, 
+    #b6, #b7, #b8, #b9 {
+        width: 80px;
+        height: 52px;
+        margin: auto;
+        border: 1px solid gray;
+        border-radius: 6px;
+        font-size: 30px;
+        text-align: center;
+    }
+  
+    /* Reset Button */
+    #but {
+        box-sizing: border-box;
+        width: 95px;
+        height: 40px;
+        border: 1px solid dodgerblue;
+        margin: auto;
+        border-radius: 4px;
+        font-family: Verdana, 
+            Geneva, Tahoma, sans-serif;
+  
+        background-color: dodgerblue;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+  
+    /* Player turn space */
+    #print {
+        font-family: Verdana, 
+            Geneva, Tahoma, sans-serif;
+  
+        color: dodgerblue;
+        font-size: 20px;
+    }
+  
+    /* Main Container */
+    #main {
+        text-align: center;
+    }
+  
+    /* Game Instruction Text */
+    #ins {
+        font-family: Verdana, 
+            Geneva, Tahoma, sans-serif;
+              
+        color: dodgerblue;
+        font-size: 17px;
+    }
